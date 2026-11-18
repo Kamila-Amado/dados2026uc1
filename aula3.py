@@ -5,5 +5,6 @@ if idade >= 18:
     print('Você é maior de idade')
 else:
     print('Você é menor de idade')
-
-print('Fim do programa.') 
+    faltm= 18 - idade
+print(f'Faltam {faltam} anos (s)para ompletar 18')
+print('fim do programa') 
